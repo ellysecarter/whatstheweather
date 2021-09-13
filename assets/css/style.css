@@ -1,23 +1,49 @@
+
+
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif
-    font-size: 30px;
-    line-height: 1;
+    background-color:blanchedalmond;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
   }
   
-  textarea{
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
+  header {
+    background-color: #14213D;
+    color: yellowgreen;
+  }
+  
+  header h1 {
+    width: 100%;
+  }
+  
+  h1, h2 {
+    color: yellowgreen;
+  }
+  
+  h1 {
+    background-color: #14213D;
+    border-radius: 5%;
+    width: 23%;
     padding: 10px;
   }
   
-  .jumbotron {
+  h5 {
+    font-family: 'Red Rose';
     text-align: center;
-    background-color: transparent;
-    color: black;
-  }
-  
+  } 
  
-  
+  .col-lg-9 {
+    text-align: center;
+  }
+
+  #today {
+      width: 100%;
+  }
+
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  #forecast {
+      width: 100%;
+  }
